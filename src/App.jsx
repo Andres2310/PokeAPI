@@ -1,9 +1,12 @@
+import Container  from "./components/Container"
+
 function App() {
 	return (
-		<div className='App bg-slate-800 min-h-screen flex items-center justify-center'>
-			<h1 class='text-3xl font-bold text-teal-500'>Vite + React!</h1>
+		<div className="App bg-slate-900 min-h-screen">
+			<Container/>
+			
 		</div>
 	)
 }
-
+Container
 export default App
